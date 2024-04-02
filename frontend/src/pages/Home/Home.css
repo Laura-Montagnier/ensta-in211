@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.pellicule {
+  width: 40vmin; /* Remplacez par la largeur souhaitée */
+  height: auto; /* Pour conserver les proportions de l'image */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
