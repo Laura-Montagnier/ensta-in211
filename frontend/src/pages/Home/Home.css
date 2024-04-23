@@ -8,8 +8,10 @@
 }
 
 .pellicule {
-  width: 40vmin; /* Remplacez par la largeur souhaitée */
-  height: auto; /* Pour conserver les proportions de l'image */
+  width: 40vmin;
+  /* Remplacez par la largeur souhaitée */
+  height: auto;
+  /* Pour conserver les proportions de l'image */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -19,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #53c151;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,6 +39,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
